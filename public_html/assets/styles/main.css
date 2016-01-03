@@ -813,7 +813,7 @@ h6, .progress-group .progress-title,
 
 .h-alt {
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 900;
 }
 
 /* ---- 1.3 Links ---- */
@@ -2221,11 +2221,11 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-trans .navbar-logo {
-  content: url(../images/logo-light.png);
+  content: url(../images/acacia_logo.png);
 }
 
 .navbar-trans .navbar-logo-dark {
-  content: url(../images/logo.png);
+  content: url(../images/acacia_logo.png);
 }
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
@@ -3134,7 +3134,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .ft-hover-item .ft-1, .ft-hover-item .ft-2 {
-  background: url(http://placehold.it/900x580);
+  background: url(../images/royalHorse1.png);
   background-size: 100%;
   background-position: 50%;
   -webkit-transition: background-size 0.3s;
@@ -3148,19 +3148,19 @@ fieldset[disabled] .form-control:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(17, 17, 17, 0.55);
+  
   -webkit-transition: background 0.4s;
           transition: background 0.4s;
 }
 
 .ft-hover-item .ft-2 {
-  background: url(http://placehold.it/900x580);
+  background: url(../images/picasso.jpg);
   background-size: 100%;
   background-position: 50%;
 }
 
 .ft-hover-item .ft-2 .bg-overlay {
-  background: rgba(17, 17, 17, 0.4);
+ 
 }
 
 /* ---- 9.12 Video Background ---- */
@@ -6954,7 +6954,7 @@ fieldset[disabled] .form-control:hover {
 .animated-hero {
   background: url("../images/desk_job.jpg");
   background-size: cover;
-  background-position: 50%;
+  
   background-attachment: fixed;
 }
 
@@ -6986,7 +6986,7 @@ fieldset[disabled] .form-control:hover {
 .animated-hero .hero-content-wrapper .hero-content .hero-subheading {
   margin-top: 50px;
   margin-bottom: 20px;
-  color: #19A319;
+  color: #006600;
 }
 
 /* ---- 20.10 Kenburn Slider ---- */
