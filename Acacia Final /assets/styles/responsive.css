@@ -720,6 +720,17 @@
   .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-lead {
     font-size: 4em;
   }
+  .hero-content-wrapper,.animated-hero, .animated-hero .bg-overlay{
+    height: 495px !important;
+    overflow: hidden;
+  }
+  .animated-hero{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    position: relative;
+    top: 75px;
+  }
 }
 
 @media (max-width: 770px) {
@@ -796,7 +807,7 @@
     font-size: 4em;
   }
   .animated-hero .hero-content-wrapper .hero-content .hero-lead {
-    font-size: 3.5em;
+    font-size: 1em;
     letter-spacing: 5px;
   }
   .fw-slider-hero .fw-slide-1 .hero-content-wrapper .hero-content .hero-lead,
@@ -809,6 +820,20 @@
   }
   .fw-slider-hero .fw-slide-2 .hero-content-wrapper .hero-content .hero-lead {
     font-size: 3em;
+  }
+  .btn, .btn-ghost, .btn-ghost-light, .btn-text, .btn-text-light, .btn-light{
+    font-size: 0.4em;
+  }
+  .hero-content-wrapper,.animated-hero, .animated-hero .bg-overlay{
+    height: 180px !important;
+    overflow: hidden;
+  }
+  .animated-hero .hero-content-wrapper .hero-content{
+    vertical-align: top !important;
+  }
+  .animated-hero .hero-content-wrapper .hero-content .hero-subheading{
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
 }
 
